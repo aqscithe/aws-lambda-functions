@@ -1,6 +1,6 @@
 # aws-lambda-functions
 
-## Create Image
+## create-image
 Creates a AMI backups of instances based on instance tagging. Triggered by CloudWatch events - instance changing to stopped state.
 
 Sample Event:
@@ -22,6 +22,5 @@ Sample Event:
   }
 }
 ```
-
-## Create Image Schedule
+## create-image-schedule
 Creates a AMI backups of instances based on instance tagging. Triggered by CloudWatch events schedule. This function doesn't take any parameters from the event, so it could be triggered by whatever you want.
